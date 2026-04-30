@@ -23,6 +23,10 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "sick",
+    "fire",
+    "proud",
+    "peace",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +40,8 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "stuck",
+    "exhausted",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +56,23 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "I was stressed, but I had fun",
+    "The lecture is so boring",
+    "It is a good day to be alive",
+    "It's chill, but I'm sad",
+    "I seem great",
+    "lowkey stressed but trying my best 💪",
+    "I absolutely love waiting in line for 2 hours 😒",
+    "my code finally works!! 🎉",
+    "not me scrolling at 3am again :(",
+    "waking up and choosing violence 💀",
+    "finally some peace and quiet 😌",
+    "honestly this is the worst day ever no cap",
+    "ngl i'm feeling kinda empty today",
+    "this project turned out awesome 😍",
+    "I love the idea but hate the execution",
+    "I'm so tired of this",
+    "it just happened"
 ]
 
 # Human labels for each post above.
@@ -65,6 +88,23 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",     # "I was stressed, but I had fun"
+    "negative",  # "The lecture is so boring"
+    "positive",  # "It is a good day to be alive"
+    "mixed",     # "It's chill, but I'm sad"
+    "positive",  # "I seem great"
+    "mixed",     # "lowkey stressed but trying my best 💪"
+    "negative",  # "I absolutely love waiting in line for 2 hours 😒" (sarcasm)
+    "positive",  # "my code finally works!! 🎉"
+    "negative",  # "not me scrolling at 3am again :("
+    "negative",  # "waking up and choosing violence 💀" (joking but frustrated)
+    "positive",  # "finally some peace and quiet 😌"
+    "negative",  # "honestly this is the worst day ever no cap"
+    "neutral",   # "ngl i'm feeling kinda empty today"
+    "positive",  # "this project turned out awesome 😍"
+    "mixed",     # "I love the idea but hate the execution"
+    "negative",  # "I'm so tired of this"
+    "neutral",   # "it just happened"
 ]
 
 # TODO: Add 5-10 more posts and labels.
