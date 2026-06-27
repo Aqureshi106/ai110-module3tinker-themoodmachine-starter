@@ -72,7 +72,19 @@ SAMPLE_POSTS = [
     "this project turned out awesome 😍",
     "I love the idea but hate the execution",
     "I'm so tired of this",
-    "it just happened"
+    "it just happened",
+    "lowkey proud but also scared to submit this",
+    "lol this meeting could have been an email",
+    "highkey grateful for my friends today :)",
+    "i'm fine i guess, just tired of pretending",
+    "got the news and honestly don't know how to feel",
+    "bruh my phone died right before the quiz :(",
+    "small win today, finally cleaned my room",
+    "love when plans change last second... amazing",
+    "love when the wifi dies during lecture",
+    "that update is wicked fast",
+    "not bad honestly :)",
+    "kinda proud but completely drained"
 ]
 
 # Human labels for each post above.
@@ -105,6 +117,18 @@ TRUE_LABELS = [
     "mixed",     # "I love the idea but hate the execution"
     "negative",  # "I'm so tired of this"
     "neutral",   # "it just happened"
+    "mixed",     # "lowkey proud but also scared to submit this"
+    "negative",  # "lol this meeting could have been an email"
+    "positive",  # "highkey grateful for my friends today :)"
+    "negative",  # "i'm fine i guess, just tired of pretending"
+    "neutral",   # "got the news and honestly don't know how to feel"
+    "negative",  # "bruh my phone died right before the quiz :("
+    "positive",  # "small win today, finally cleaned my room"
+    "negative",  # "love when plans change last second... amazing" (sarcasm)
+    "negative",  # "love when the wifi dies during lecture" (sarcasm)
+    "positive",  # "that update is wicked fast"
+    "positive",  # "not bad honestly :)"
+    "mixed",     # "kinda proud but completely drained"
 ]
 
 # TODO: Add 5-10 more posts and labels.
